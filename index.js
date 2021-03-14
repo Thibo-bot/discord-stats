@@ -40,3 +40,6 @@ function activity() {
   }, 10000);
 }
 activity();
+
+
+client.login(process.env.TOKEN);
